@@ -63,7 +63,6 @@ export function Settings({ contacts, loading, error, refresh }) {
               type="email"
               value={form.email}
               onChange={(event) => setForm({ ...form, email: event.target.value })}
-              required
               className="mt-2 w-full rounded-md border border-slate-300 bg-slate-50 px-3 py-2 text-slate-900 outline-none focus:border-cyan-500 dark:border-slate-700 dark:bg-slate-950 dark:text-white dark:focus:border-cyan-400"
               placeholder="admin@example.com"
             />
