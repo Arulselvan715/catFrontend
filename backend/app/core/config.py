@@ -13,6 +13,7 @@ class Settings(BaseSettings):
     pushover_sound: str = 'pushover'
     alert_cooldown_seconds: int = 300
     macrodroid_webhook_url: str | None = None
+    macrodroid_webhook_url_2: str | None = None
 
     model_config = SettingsConfigDict(env_file='.env', env_file_encoding='utf-8')
 

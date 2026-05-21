@@ -5,8 +5,8 @@ import { audioAlerts } from '../services/audioAlerts';
 import { calculateEyeMetrics, smoothValue } from '../utils/eyeAspectRatio';
 
 const EAR_THRESHOLD = 0.2;
-const DROWSY_WARNING_MS = 10_000;
-const EMERGENCY_MS = 12_000;
+const DROWSY_WARNING_MS = 5_000;
+const EMERGENCY_MS = 10_000;
 const FRAME_INTERVAL_MS = 90;
 
 const initialStatus = {
